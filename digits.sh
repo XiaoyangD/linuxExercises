@@ -6,6 +6,4 @@ for num in {1000..2000}; do
     fi
 done
 
-echo "The sum of numbers in range(1000,2000)\
- having digits from\
- the {0, 1} is: $sum"
+echo "$sum"

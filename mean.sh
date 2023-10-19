@@ -21,5 +21,5 @@ cut -d',' -f$column "$file" | tail -n +2 | {
     fi
 
     mean=$((sum / count))
-    echo "mean = $mean"
+    echo "$mean"
 }

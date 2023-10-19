@@ -9,6 +9,6 @@ cat Property_Tax_Roll.csv | grep "MADISON SCHOOLS" | cut -d',' -f7 |
         count=$((count+1))
     done
     average=$(echo "scale=2; $sum / $count" | bc)
-    echo "Total Sum: $sum"
-    echo "Average: $average"
+    echo "$sum"
+    echo "$average"
 }
